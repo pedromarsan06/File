@@ -1,1 +1,1 @@
-# File
+flatpak remote-modify --collection-id=org.flathub.Stable flathub
