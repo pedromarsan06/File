@@ -2,7 +2,7 @@ flatpak remote-modify --collection-id=org.flathub.Stable flathub
 flatpak create-usb ~/SOBER org.vinegarhq.Sober
 
 $$$$$$
-wget --method PUT --body-file=~/SOBER https://transfer.sh/SOBER -O -
+tar -czf - ~/SOBER | curl --upload-file - https://transfer.sh/SOBER.tar.gz
 $$$$$$
 
 $$$$$$
