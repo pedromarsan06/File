@@ -1,20 +1,11 @@
+Projeto SQL_API
 
 
-http://www.wch.cn/downloads/CH341SER_EXE.html
+para usar basta usar o ./arquivo no termux e veja os comandos tudo feito em python menos o arquivo e o install feito em c++.
 
+Bibliotecas:
+FastAPI, Uvicorn, virtualvenv.
 
+Notas:
 
-
-
-
-
-
-flatpak remote-modify --collection-id=org.flathub.Stable flathub
-flatpak create-usb ~/SOBER org.vinegarhq.Sober
-
-$$$$$$
-tar -czf - ~/SOBER | curl --upload-file - https://transfer.sh/SOBER.tar.gz
-$$$$$$
-
-$$$$$$
-flatpak install --user --sideload-repo=./.ostree/repo flathub org.vinegarhq.Sober
+modifiquei caso necessário para utilizar os comandos no Linux caso queira utilizar apt, PacMan para instalar o python e depois instalar manualmente usando pip install -r requirements
