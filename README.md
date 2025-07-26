@@ -15,3 +15,4 @@ FastAPI, Uvicorn, virtualvenv, SQLITE.
 Notas:
 
 modifiquei caso necessário para utilizar os comandos no Linux caso queira utilizar apt, PacMan para instalar o python e depois instalar manualmente usando pip install -r requirements
+e edite o menu para instalar libs aparte caso queira pois ali usa o pkg e o ./install tambem!
